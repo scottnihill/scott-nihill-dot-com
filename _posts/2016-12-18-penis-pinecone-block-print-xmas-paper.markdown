@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Penis Pinecone Block Print Christmas Wrapping Paper"
+title:  "Phalic Pinecone Block Print Christmas Wrapping Paper"
 date:   2016-12-18 10:00:30 -0500
 category: project
 tags: 
