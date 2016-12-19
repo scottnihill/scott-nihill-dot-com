@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+
+<div class="m-b-l">
+	<h2>Posts</h2>
+	{% assign colNum = 1 %}
+	{% for post in site.posts %}
+		{% if post.category != "project" %} 
+	  {% else if %}
+		  {% if colNum == 1 %}
+		    {% assign colNum = 2 %}
+		    <div class="row">
+		      <div class="col-md-4">
+		          <a href="{{ post.url | prepend: site.baseurl }}">
+		            <img class="img-responsive" src="{{ post.image }}">
+		          </a>
+		          <h4>
+		            <a href="{{ post.url | prepend: site.baseurl }}">
+		              {{ post.title }}
+		            </a>
+		          </h4>
+		      </div>
+		  {% elsif colNum == 2 %}
+		    {% assign colNum = 3 %}
+		      <div class="col-md-4">
+		          <a href="{{ post.url | prepend: site.baseurl }}">
+		            <img class="img-responsive" src="{{ post.image }}">
+		          </a>
+		          <h4>
+		            <a href="{{ post.url | prepend: site.baseurl }}">
+		              {{ post.title }}
+		            </a>
+		          </h4>
+		      </div>    
+		  {% else %}
+		    {% assign colNum = 1 %}
+		    <div class="col-md-4">
+		        <a href="{{ post.url | prepend: site.baseurl }}">
+		          <img class="img-responsive" src="{{ post.image }}">
+		        </a>
+		        <h4>
+		          <a href="{{ post.url | prepend: site.baseurl }}">
+		            {{ post.title }}
+		          </a>
+		        </h4>
+		    </div>
+		  </div>
+		  {% endif %}
+		{% endif %}
+	{% endfor %}
+	{% if colNum == 2 %}
+		</div>
+	{% endif %}
+	{% if colNum == 3 %}
+		</div>
+	{% endif %}
+</div>
+
+
