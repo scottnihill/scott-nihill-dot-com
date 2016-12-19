@@ -11,7 +11,7 @@ email: me@scottnihill.com
 permalink: /:categories/:title.html
 description: My blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://electinion.com" # the base hostname & protocol for your site
+url: "http://scottnihill.com" # the base hostname & protocol for your site
 twitter_username: scottnihill
 facebook_username: nihillscott
 tumblr_username: scottnihill	
