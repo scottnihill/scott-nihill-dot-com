@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Scott Nihill | Blog
+title: Scott Nihill's Blog
 email: me@scottnihill.com
 permalink: /:categories/:title.html
-description: My blog
+description: A place to archive my projects and creative process.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scottnihill.com" # the base hostname & protocol for your site
 twitter_username: scottnihill
