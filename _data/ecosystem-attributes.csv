@@ -1,0 +1,12 @@
+type,property,value-type,value-range,description
+bug,Max Lifetime,Integer,"8,000","Starts at 8,000 and then is modified via mutation during each new spawning."
+bug,Color,Integer,0 - 255,The rgb color of the bug. 
+bug,Speed,Integer,0.5 - 5,The maximum speed a bug can travel.
+bug,Antenna Length,Integer,0.5 - 3,How long the antenna can be.
+bug,Antenna Spread,Integer,0.1 - 1,The amout the antenna is spread over a 180 degree radius. 
+bug,Antenna Quantity,Integer,1 - 4,The number of antenna a bug can have. Currently fixed at two.
+bug,Move On Eat,Integer,0.1 - 0.2,The maximum amount the bug will move after eating. A random number will be chosen after each bite of food and applied to the bugs movement vector. 
+bug,Jitters,Integer,"500 - 10,000",The amount of milliseconds until the bug chooses to turn from it's current course.
+bug,Max Rotation,Integer,0 - 360,What is the maximum amount that the bug can rotate when it chooses to turn.
+bug,Reproduction,Integer,0 - 1,Currently has no effect.
+bug,Max Children,Integer,1 - 4,The maximum number of children that can be spawned during each reproduction event. 

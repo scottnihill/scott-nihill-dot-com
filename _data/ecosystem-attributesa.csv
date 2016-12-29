@@ -1,0 +1,12 @@
+type,property,value-type,value-range,description
+bug,Max Lifetime,Integer,"8,000","Starts at 8,000 and then is modified via mutation during each new spawning."
+bug,Color,Integer,0 - 255,
+bug,Speed,Integer,0.5 - 5,
+bug,Antenna Length,Integer,0.5 - 3,
+bug,Antenna Spread,Integer,0.1 - 1,
+bug,Antenna Quantity,Integer,1 - 4,
+bug,Max Rotation,Integer,0 - 360,
+bug,Move On Eat,Integer,0.1 - 0.2,
+bug,Jitters,Integer,1000 - 20000,
+bug,Reproduction,Integer,0 - 1,
+bug,Max Children,Integer,1 - 4,
