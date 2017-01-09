@@ -11,6 +11,7 @@ To test whether or not I will actually utilize such a tool I've mocked something
 ### Submission Form
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetJMkRmQtsiM0BJLEAlw6C5ROcJ3xqxq4LBIO-c3LPB5pgHg/viewform?embedded=true" width="800" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
+
 As you can see I've added some additional **optional** parameters that will provide a bit more incite into my patterns.  
 
 ### Tracking 
@@ -38,12 +39,10 @@ I'm not sure how to implement this with Gdocs yet but some kind of quick overvie
 ##### Week by Week Progress
 A summary of the total amount of Positive and Negative pings each week. This will be helpful in tracking my week to week progress.
 
-<iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1AgJzWfkeCzib-ETVDLDytmkHqjfk33eOyltfFSqbnu0/pubchart?oid=1033349425&amp;format=image"></iframe>
+<iframe width="800" height="440" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1AgJzWfkeCzib-ETVDLDytmkHqjfk33eOyltfFSqbnu0/pubchart?oid=1033349425&amp;format=image"></iframe>
 <br>
 
 ##### Total Positive & Negative Pings To Date
 This will allow me to track my overall progress since starting to use the tool. Red is negative and Green is positive. 
 
-<iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1AgJzWfkeCzib-ETVDLDytmkHqjfk33eOyltfFSqbnu0/pubchart?oid=204844344&amp;format=image"></iframe>
-
-
+<iframe width="800" height="440" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1AgJzWfkeCzib-ETVDLDytmkHqjfk33eOyltfFSqbnu0/pubchart?oid=204844344&amp;format=image"></iframe>
