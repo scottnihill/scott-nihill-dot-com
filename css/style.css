@@ -9,19 +9,16 @@
 	font-size: 100px;
 }
 
-.bg-red{
-	background: #d9534f;
-}
+/* Background */
 
-.bg-orange{
-	background: #f0ad4e;
-}
-
-.bg-green{
-	background: #5cb85c;
-}
-
-
+.bg-grey{background: #aaa;}
+.bg-red{background: #d9534f;}
+.bg-orange{background: #f0ad4e;}
+.bg-green{background: #5cb85c;}
+.bootstrap{background: #db892b;}
+.embreate{background: #806cd8;}
+.gesturetek{background: #2bacdb;}
+.personal{background: #2bdb77;}
 
 
 
