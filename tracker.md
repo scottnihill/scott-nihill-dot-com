@@ -2,6 +2,7 @@
 layout: page
 title: Personal Lifestyle Tracker
 permalink: /tracker/
+navigationActive: false
 ---
 
 I'm experimenting with a hyper simple lifestyle tracking system. The idea is simple, I log activities I deem positive or negative to some aspect of my life with a simple binary input; thumbs up/down, swipe left/right etc. I can then decide what ratio of positive to negative ticks strikes the right balance. 

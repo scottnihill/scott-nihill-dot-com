@@ -17,7 +17,11 @@ Some of the software that I'll be using is;
 * 3D Modelling Software
 * Audacity
 * Gimp
+* Dafont.com
+* FreeSound.org 
 
+* unitypatterns.com/singletons
+* gameprogrammingpatterns.com
 
 
 

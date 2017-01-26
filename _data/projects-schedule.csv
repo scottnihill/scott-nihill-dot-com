@@ -1,6 +1,17 @@
-date-start,date-end,year,title,type,tech,end-client,my-client,image
-2016-08-01,,2016,Mirror World VR,Application,VR Unity3D,,Embreate,
-2016-08-01,,2016,Xmas Stamp,Craft,Block Print,,,
-2016-08-01,,2015,Filey,Carpentry,,,,
-2016-08-01,,2014,Another,Project,,,,
-
+date-start,date-end,year-end,status,end-client,title,project-type,tech-used,skills-used,my-client,image,portfolio
+2016-08-01,2017-04-01,2017,,Lee Memorial,Lee Memorial Interactive Wall,Interactive Installation,,,Embreate ,lee-memorial-interactive-wall.jpg,http://embreate.com/
+2016-12-01,2017-03-01,2017,,,Cat Scratch Post,Furniture,,,Personal,cat-scratch-post.jpg,
+2016-08-01,2017-01-31,2017,active,n/a,Mirror World VR,Game,VR Unity3D,,Embreate,mirror-world-vr.jpg,http://electinion.com/
+2016-11-01,2016-12-15,2016,closed,n/a,Xmas Paper,Craft,Block Print,,Personal,xmas-wrapping-paper.jpg,http://scottnihill.com/project/penis-pinecone-block-print-xmas-paper.html
+2015-06-01,2015-12-01,2015,,Campari,Campari Headquarters,Renovation,,,Bootstrap,campari-renovation.jpg,http://bootstrapdesign.ca/#Campari Toronto Office
+2016-05-01,2016-09-01,2016,,Jelly Belly,Jelly Belly Bean Sort,Interactive Installation,,,Embreate ,jelly-belly-bean-sort.jpg,http://embreate.com/project/jelly-belly.html
+2015-12-01,2016-07-01,2016,,NBA,NBA Play Zone,Interactive Installation,,,Embreate ,nba-play-zone.jpg,http://embreate.com/project/nba.html
+2016-02-01,2016-05-01,2016,,Mediummune,Cancer Smash,Interactive Installation,,,Embreate ,cancer-smash.jpg,http://embreate.com/project/medimmune.html
+2016-01-01,2016-03-01,2016,closed,n/a,Filey & Walkr,Furniture,Carpentry,,Personal,filey-walkr.jpg,
+2016-01-01,2016-03-01,2016,,,Side Tables,Furniture,,,Personal,couch-side-tables.jpg,
+2014-12-01,2016-02-01,2016,,Whizbang,Hellions Web Comic,Web Application,,,Embreate ,hellions-web-comic.jpg,http://int.hellionsmovie.com/story/
+2015-09-01,2016-01-15,2016,,,Kensington Loft,Renovation,,,Bootstrap,kensington-loft,http://bootstrapdesign.ca/
+2014-12-02,2015-12-01,2015,,,Hellions 2nd Screen,Web Application,,,Embreate ,hellions-2nd-screen.jpg,http://int.hellionsmovie.com/2ndscreen/
+2015-06-01,2015-08-01,2015,,,Bravetail,Interactive Installation,,,Embreate ,bravetail.jpg,http://embreate.com/project/bravetail.html
+2013-10-03,2014-02-02,2014,,,Bleedback #1,Comic Book,,,Embreate,bleedback-1.jpg,http://bleedbackcomic.com/
+2014-01-02,2015-02-01,2015,,,Bleedback #2,Comic Book,,,Embreate,bleedback-1.jpg,http://bleedbackcomic.com/

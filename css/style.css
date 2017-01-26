@@ -26,6 +26,25 @@
 	Page Specific Classes
 */
 
+.projects-schedule tbody tr.projects td {
+	padding: 0;
+	color: white;
+}
+
+.projects-schedule tbody tr.projects td div{
+	padding: 5px 0 0 0;
+	height: 50px;
+	opacity: 0.7;
+	line-height: 110%;
+}
+
+.projects-schedule tbody tr.projects td div span{
+	color: white;
+	background-color: black;
+	padding: 1px 5px;
+	
+}
+
 .ticker .rounded-box {
 	display: inline-block;
 }
