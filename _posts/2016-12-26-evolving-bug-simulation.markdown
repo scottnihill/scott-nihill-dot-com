@@ -2,7 +2,7 @@
 layout: post
 title:  "Ecosystem: An Evolving Bug Simulation"
 date:   2016-12-26 10:00:30 -0500
-category: project
+category: blog
 tags: 
 - Processing
 - Evolving
@@ -114,6 +114,10 @@ With the basic actions of one species complete I'd like to work on taking the ex
 
 * Make the installation motion responsive. For this I'll need to think about how a person can interact with it (i.e. their shadow causes plants to shrink in size)
 * Plants can evolve. Having two entities that can adapt to an environment will make things more interesting. 
+
+
+### Inspiration
+http://janhuenermann.com/projects/learning-to-drive
 
 
 

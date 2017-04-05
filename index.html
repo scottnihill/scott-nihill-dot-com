@@ -2,60 +2,51 @@
 layout: default
 ---
 
+<div>
 
-<div class="m-b-l">
-	<h2>Posts</h2>
-	{% assign colNum = 1 %}
-	{% for post in site.posts %}
-		{% if post.category != "project" %} 
-	  {% else if %}
-		  {% if colNum == 1 %}
-		    {% assign colNum = 2 %}
-		    <div class="row">
-		      <div class="col-md-4">
-		          <a href="{{ post.url | prepend: site.baseurl }}">
-		            <img class="img-responsive" src="{{ post.image }}">
-		          </a>
-		          <h4>
-		            <a href="{{ post.url | prepend: site.baseurl }}">
-		              {{ post.title }}
-		            </a>
-		          </h4>
-		      </div>
-		  {% elsif colNum == 2 %}
-		    {% assign colNum = 3 %}
-		      <div class="col-md-4">
-		          <a href="{{ post.url | prepend: site.baseurl }}">
-		            <img class="img-responsive" src="{{ post.image }}">
-		          </a>
-		          <h4>
-		            <a href="{{ post.url | prepend: site.baseurl }}">
-		              {{ post.title }}
-		            </a>
-		          </h4>
-		      </div>    
-		  {% else %}
-		    {% assign colNum = 1 %}
-		    <div class="col-md-4">
-		        <a href="{{ post.url | prepend: site.baseurl }}">
-		          <img class="img-responsive" src="{{ post.image }}">
-		        </a>
-		        <h4>
-		          <a href="{{ post.url | prepend: site.baseurl }}">
-		            {{ post.title }}
-		          </a>
-		        </h4>
-		    </div>
-		  </div>
-		  {% endif %}
+	<div>
+		<a class="btn btn-default active" href="{{ post.url | prepend: site.baseurl }}/projects-grid"><i class="fa fa-th" aria-hidden="true"></i> Grid</a>
+		<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/projects-list"><i class="fa fa-list" aria-hidden="true"></i> List</a>
+		<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/projects-timeline"><i class="fa fa-calendar" aria-hidden="true"></i> Timeline</a>
+	</div>
+	<br>
+
+	{% assign projects = site.data.projects | sort:"date-end" | reverse %}
+	{% assign colNumber = 1 | plus: 0 %}
+	{% for project in projects %}
+		{% if project.status == "1 hold" %}
+		{% elsif project.status == "0 closed" %}
+		{% else %}
+			{% if colNumber == 1 %}
+				<div class="row">
+				{% endif %}
+					<div class="col-sm-3">
+						{% if project.portfolio != null %}
+						<a href="{{project.portfolio}}">
+						{% endif %}
+							{% if project.image != null %}
+							<img class="img-responsive" src="/assets/projects/{{project.image}}-800x500.jpg">
+							{% else %}
+							<img class="img-responsive" src="/assets/projects/blank-800x500.jpg">
+							{% endif %}
+							<h4>{{project.title}}
+								{% if project.portfolio != null %}
+								&nbsp;&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+								{% endif %}
+							</h4>
+						{% if project.portfolio != null %}
+						</a>
+						{% endif %}
+					</div>
+				{% if colNumber == 4 %}
+				</div>
+				{% endif %}
+				{% assign colNumber = colNumber | plus: 1 %}
+				
+				{% if colNumber == 5 %}
+				{% assign colNumber = 1 | plus: 0 %}
+			{% endif %}
 		{% endif %}
 	{% endfor %}
-	{% if colNum == 2 %}
-		</div>
-	{% endif %}
-	{% if colNum == 3 %}
-		</div>
-	{% endif %}
 </div>
-
 
