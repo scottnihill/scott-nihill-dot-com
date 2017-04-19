@@ -24,6 +24,7 @@ Some of the software that I'll be using is;
 * unitypatterns.com/singletons
 * gameprogrammingpatterns.com
 * opengameart.org
+* Sprite sheet maker: https://www.codeandweb.com/
 
 
 ### Getting Started

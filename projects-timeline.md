@@ -11,15 +11,12 @@ navigationActive: false
 	Data src: https://docs.google.com/spreadsheets/d/1hXXyJMGAxXfqY6p4ZoHZ5Cdhlite_lKjJAalYAySO0c/edit#gid=670251319
 {% endcomment %}
 
-
 <div>
 	<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/projects-grid"><i class="fa fa-th" aria-hidden="true"></i> Grid</a>
 	<a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}/projects-list"><i class="fa fa-list" aria-hidden="true"></i> List</a>
 	<a class="btn btn-default active" href="{{ post.url | prepend: site.baseurl }}/projects-timeline"><i class="fa fa-calendar" aria-hidden="true"></i> Timeline</a>
 </div>
 <br>
-
-
 
 <div class="projects-schedule">
 

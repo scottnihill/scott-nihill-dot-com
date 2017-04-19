@@ -7,7 +7,7 @@ tags:
 - Processing
 - Evolving
 
-image: ../assets/ecosystem-v0-4-screen-capture-00.jpg
+image: ../assets/blog-ecosystem/ecosystem-v0-4-screen-capture-00.jpg
 ---
 
 I've been interested in computer generated evolving natural systems for a long time and wanted to play around with some of the principles myself. 
@@ -21,7 +21,7 @@ Going into the process my objective was to create a system that would evolve on 
 <div class="row">
   	<div class="col-sm-4 col-xs-8 col-sm-offset-0 col-xs-offset-2">
   		<video width="100%" height="auto" autoplay loop>
-		   	<source src="../assets/ecosystem-v0-4-video-capture-bug-life-cycle.mp4" type="video/mp4">
+		   	<source src="../assets/blog-ecosystem/ecosystem-v0-4-video-capture-bug-life-cycle.mp4" type="video/mp4">
 		</video> 
   	</div>
   	<div class="col-sm-8 col-xs-12">
@@ -34,19 +34,19 @@ When the simulation first launches the bugs consume the plants, reproduce rapidl
 <div class="row">
 	<div class="col-sm-8 col-xs-8 col-sm-offset-2 col-xs-offset-0">
 		<video width="100%" height="auto" autoplay loop>
-		   	<source src="../assets/ecosystem-v0-4-video-capture-fast-forward.mp4" type="video/mp4">
+		   	<source src="../assets/blog-ecosystem/ecosystem-v0-4-video-capture-fast-forward.mp4" type="video/mp4">
 		</video>  
 	</div>
 </div>
 In the above video you can see the plants starting to take over and then a growing swarm of bugs decimate the vegetation, and repeats over and over again. Though, the bugs find a stable equilibrium eventually.
 
-![Ecosystem v0.4 data chart showing stabilization](/assets/ecosystem-v0-4-data-quantity-plants-bugs-over-time-chart.jpg){: .img-responsive}
+![Ecosystem v0.4 data chart showing stabilization](/assets/blog-ecosystem/ecosystem-v0-4-data-quantity-plants-bugs-over-time-chart.jpg){: .img-responsive}
 
 The chart above shows the number of bugs and plants over time, and you can see early on there are massive die offs that are preceded by spikes in the plant population. The bugs do not have the capacity to control their compulsion to eat and reproduce so an abundance of food can lead to a population explosion. Once all the food is gone, the bugs will either starve or fight one another for survival. This leads to a massive die off until the plants have enough space to grow. 
 
 At this point I have not built-in any evolutionary capacity for plants, so it is up to the bugs to evolve to a state where their characteristics result in sustainable populations. So what are the attributes that lead to such a stable state? And is there one optimal set? Or a number of different variations that could lead to a balanced system?  
 
-![Ecosystem v0.4 data chart showing stabilization](/assets/ecosystem-v0-4-data-max-speed-at-death-chart.jpg){: .img-responsive}
+![Ecosystem v0.4 data chart showing stabilization](/assets/blog-ecosystem/ecosystem-v0-4-data-max-speed-at-death-chart.jpg){: .img-responsive}
 
 In scrubbing the data output I found that the max speed of the bugs levels off around the same time the bug and plant populations stabalize. This could mean that faster bugs are too good at mating and eating so leads to an imbalance. So possibly after a massive die off a successful trait was found and it stuck. I'd have to spend much more time analysing the data to come to any firm conclusions.
 
